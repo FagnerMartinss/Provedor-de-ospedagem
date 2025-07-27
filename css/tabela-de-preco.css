@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho {
+    width: 100%;
+    padding: 35px 0;
+    position: relative;
+    background-color: #2f86d6;
+}
+
+.cabecalho-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cabecalho-conteudo-texto img {
+    width: 100px;
+}
+
+.cabecalho-conteudo-texto h1 {
+    position: absolute;
+    top: 0;
+    left: 111px;
+    color: #000000;
+    font-size: 32px;
+}
+
+.cabecalho-conteudo-texto p {
+    position: absolute;
+    top: 55px;
+    left: 111px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar {
+    position: absolute;
+    top: 41px;
+    right: 0;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Seção cabeçalho  fim */
+
+
+/* seção tabela */
+.secoa-tabela-preco {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #fff;
+
+}
+
+.secoa-tabela-preco-conteudo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabela-de-preco-itens-conteudo {
+    background-color: #f1f3f7;
+    width: 300px;
+    height: 80px;
+    padding: 10px 0;
+}
+
+small {
+    color: #a89f9fc0;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+td:not(:first-child) {
+    box-shadow: 0 0px 4px -2px #a89f9fc0;
+    height: 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+td:first-child {
+    background-color: #f1f3f7;
+    font-size: 16px;
+    height: 55px;
+    width: 300px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.tabela-de-preco-itens-conteudo>h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.bolinhas {
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* seção tabela fim */
+
+.rodape {
+    width: 100%;
+    
+    
+    color: #fff;
+}
+
+.container {
+    background-color: #2f86d6;
+    padding: 50px 0;
+}
+
+.rodape-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.rodape-conteudo-texto {
+    width: 800px;
+}
+
+.rodape-conteudo-texto>img {
+    width: 100px;
+}
+
+.rodape-conteudo-texto>h1 {
+    font-size: 32px;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    right: 40%;
+}
+
+.rodape-conteudo-texto>p {
+    font-size: 16px;
+    position: absolute;
+    top: 46px;
+    right: 33%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rodape-texto {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.rodape-texto-aluno {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    color: #000000;
+    font-weight: 700;
+}
+
+.texto-azul {
+    color:#2f86d6
+}
+
+/* Seção rodape fim */
